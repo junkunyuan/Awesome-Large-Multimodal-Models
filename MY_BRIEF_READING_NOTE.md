@@ -3,6 +3,7 @@
 ## Contents
 - [My Brief Reading Notes](#my-brief-reading-notes)
   - [Contents](#contents)
+  - [\[2023-10-05\] Improved Baselines with Visual Instruction Tuning (LLaVA-1.5)](#2023-10-05-improved-baselines-with-visual-instruction-tuning-llava-15)
   - [\[2023-09-29\] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](#2023-09-29-the-dawn-of-lmms-preliminary-explorations-with-gpt-4vision)
 
 <!-- ## [xxxx-xx-xx] Templete
@@ -22,6 +23,41 @@
 ***Data:***
 
 ***Observations:*** -->
+
+
+## [2023-10-05] Improved Baselines with Visual Instruction Tuning (LLaVA-1.5)
+
+***Publication:*** arXiv 2023
+
+***Authors:*** Haotian Liu, Chunyuan Li, Yuheng Li, Yong Jae Lee
+
+***Affiliations:*** University of Wisconsin-Madison, Microsoft Research
+
+***Summary:***
+
+Several strategies to improve the performance of LLaVA.
+
+***Model:***
+
+1. Language model: LLaMA-7B or LLaMA-13B
+2. Vision model: CLIP-ViT-L-336px
+3. Vision-language connector: two-layer MLP
+
+***Method:***
+
+Improve over LLaVA:
+1. Append "Answer the question using a single word or phrase" when prompting short answers.
+2. Replace the linear projection with a two-layer MLP.
+3. Add academic task oriented VQA data.
+4. Scale up model to 13B.
+
+***Data:***
+
+665K image-text pairs, including LLaVA, ShareGPT, and some VQA datasets.
+
+***Observations:***
+
+LLaVA-1.5 achieves the best across 11 out of 12 benchmarks with the simplest architecture, academic compute and pubic datasets, and yields a fully-reproducible and affordable baseline. 
 
 ## [2023-09-29] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)
 
