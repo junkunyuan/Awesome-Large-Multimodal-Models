@@ -163,8 +163,8 @@ UC Berkeley, CMU, UIUC, UW-Madison, UMass Amherst, Microsoft Research, MIT-IBM W
 ***Method:***
 
 1. Supervised fine-tune a vision and a language model.
-2. Train a reward/preference model.
-3. Train a policy model, initialized from fine-tuning model, to maximize reward.
+2. Human annotators compare two responses and pinpoint the more hallucinated one of 10k samples for training a reward/preference model (LoRA of the SFT model).
+3. Train a policy model, initialized from SFT model, to maximize reward.
 
 ***Data:***
 

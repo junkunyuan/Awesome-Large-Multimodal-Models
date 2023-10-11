@@ -14,42 +14,47 @@ Stars, suggestions, and contributions are all welcome.
     - [Multi-Modal Foundation Models](#multi-modal-foundation-models)
     - [Multi-Modal Instruction Tuning](#multi-modal-instruction-tuning)
     - [Multi-Modal Reinforcement Learning with Human Feedback (RLHF)](#multi-modal-reinforcement-learning-with-human-feedback-rlhf)
+  - [Datasets](#datasets)
+    - [Datasets of Multi-Modal Instruction Tuning](#datasets-of-multi-modal-instruction-tuning)
+    - [Datasets of Multi-Modal Reinforcement Learning with Human Feedback (RLHF)](#datasets-of-multi-modal-reinforcement-learning-with-human-feedback-rlhf)
+    - [Datasets of Evaluation](#datasets-of-evaluation)
   - [Acknowledgement](#acknowledgement)
 
 ## Papers
 
 ### Survey
 
-| submit_date | title | publication | code | else |
+| submit_date | paper | publication | code | else |
 | --- | --- | --- | --- | --- |
 | 2023-06-23 | [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star) | - |
 
 ### Understanding and Analysis
 
-| submit_date | title | publication | code | else |
+| submit_date | paper | publication | code | else |
 | --- | --- | --- | --- | --- |
 | 2023-09-29 | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv_2023 | - | - |
 
 ### Multi-Modal Foundation Models
 
-| submit_date | title | publication | code | else |
+| submit_date | paper | publication | code | else |
 | --- | --- | --- | --- | --- |
-| 2023-09-25 | [GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card?ref=www.chatgpt-vision.com) (*GPT-4V*) | OpenAI_2023 | - | - |
-| 2023-03-15 | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) (*GPT-4*) | arXiv_2023 | - | - |
+| 2023-09-25 | [***GPT-4V***] [GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card?ref=www.chatgpt-vision.com)  | OpenAI_2023 | - | - |
+| 2023-03-15 | [ ***GPT-4*** ] [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | arXiv_2023 | - | - |
 
 ### Multi-Modal Instruction Tuning
 
-| submit_date | title | publication | code | else |
+| submit_date | paper | publication | code | else |
 | --- | --- | --- | --- | --- |
-| 2023-10-5 | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) (*LLaVA-1.5*) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
-| 2023-04-27 | [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178) (*mPLUG-Owl*) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/X-PLUG/mPLUG-Owl.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl) |
-| 2023-04-20 | [MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592) (*MiniGPT-4*) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/Vision-CAIR/minigpt4) 
-| 2023-04-17 | [Visual Instruction Tuning](https://browse.arxiv.org/abs/2304.08485) (*LLaVA*) | NeurIPS_2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
+| 2023-10-5 | [***LLaVA-1.5***] [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
+| 2023-04-27 | [***mPLUG-Owl***] [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/X-PLUG/mPLUG-Owl.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl) |
+| 2023-04-20 | [***MiniGPT-4***] [MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/Vision-CAIR/minigpt4) 
+| 2023-04-17 | [***LLaVA***] [Visual Instruction Tuning](https://browse.arxiv.org/abs/2304.08485) | NeurIPS_2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
 
 ### Multi-Modal Reinforcement Learning with Human Feedback (RLHF)
-| submit_date | title | publication | code | else |
+
+| submit_date | paper | publication | code | else |
 | --- | --- | --- | --- | --- |
-| 2023-09-25 | [Aligning Large Multimodal Models with Factually Augmented RLHF](https://arxiv.org/abs/2309.14525) (*LLaVA-RLHF*) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/llava-rlhf/LLaVA-RLHF.svg?style=social&label=Star) | [demo](http://pitt.lti.cs.cmu.edu:7890/) |
+| 2023-09-25 | [***LLaVA-RLHF***] [Aligning Large Multimodal Models with Factually Augmented RLHF](https://arxiv.org/abs/2309.14525) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/llava-rlhf/LLaVA-RLHF.svg?style=social&label=Star) | [demo](http://pitt.lti.cs.cmu.edu:7890/) |
 
 <!-- ### Multi-Modal In-Context Learning -->
 
@@ -61,8 +66,28 @@ Stars, suggestions, and contributions are all welcome.
 
 <!-- ### Others -->
 
-<!-- ## Datasets -->
+## Datasets
+
+### Datasets of Multi-Modal Instruction Tuning
+
+| submit_date | dataset | paper | publication | describe |
+| --- | --- | --- | --- | --- |
+| 2023-04-20 | [cc_sbu_align](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align) | [paper](https://arxiv.org/abs/2304.10592) | arXiv_2023 | high-quality, well-aligned dataset |
+| 2023-04-17 | [LLaVA-Instruct-150K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) | [paper](https://browse.arxiv.org/abs/2304.08485) | NeurIPS_2023 | instruction-following dataset |
+
+### Datasets of Multi-Modal Reinforcement Learning with Human Feedback (RLHF)
+
+| submit_date | dataset | paper | publication | describe |
+| --- | --- | --- | --- | --- |
+| 2023-09-25 | [LLaVA-SFT-122K](https://huggingface.co/datasets/shengs/LLaVA-SFT-122K), [LLaVA-Human-Preference-10K](https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K) | [paper](https://arxiv.org/abs/2309.14525) | arXiv_2023 | factually augment using captions |
+
+### Datasets of Evaluation
+
+| submit_date | dataset | paper | publication | describe |
+| --- | --- | --- | --- | --- |
+| 2023-09-25 | [MMHal-Bench](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench) | [paper](https://arxiv.org/abs/2309.14525) | arXiv_2023 | focus on hallucination evaluation |
+| 2023-04-27 | [OwlEval](https://github.com/X-PLUG/mPLUG-Owl/tree/main/OwlEval) | [paper](https://arxiv.org/abs/2304.14178) | arXiv_2023 | evaluate a variety of model capabilities |
 
 ## Acknowledgement
 
-We referred to [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models).
+The framework is designed with reference to [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models).
