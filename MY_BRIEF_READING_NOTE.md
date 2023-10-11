@@ -5,8 +5,10 @@
   - [Contents](#contents)
   - [\[2023-10-05\] Improved Baselines with Visual Instruction Tuning (LLaVA-1.5)](#2023-10-05-improved-baselines-with-visual-instruction-tuning-llava-15)
   - [\[2023-09-29\] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](#2023-09-29-the-dawn-of-lmms-preliminary-explorations-with-gpt-4vision)
+  - [\[2023-09-25\] Aligning Large Multimodal Models with Factually Augmented RLHF (LLaVA-RLHF)](#2023-09-25-aligning-large-multimodal-models-with-factually-augmented-rlhf-llava-rlhf)
 
-<!-- ## [xxxx-xx-xx] Templete
+<!-- 
+## [xxxx-xx-xx] Templete
 
 ***Publication:***
 
@@ -22,8 +24,8 @@
 
 ***Data:***
 
-***Observations:*** -->
-
+***Observations:*** 
+-->
 
 ## [2023-10-05] Improved Baselines with Visual Instruction Tuning (LLaVA-1.5)
 
@@ -55,9 +57,10 @@ Improve over LLaVA:
 
 665K image-text pairs, including LLaVA, ShareGPT, and some VQA datasets.
 
-***Observations:***
+***Conclusions:***
 
 LLaVA-1.5 achieves the best across 11 out of 12 benchmarks with the simplest architecture, academic compute and pubic datasets, and yields a fully-reproducible and affordable baseline. 
+
 
 ## [2023-09-29] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)
 
@@ -131,3 +134,46 @@ LLaVA-1.5 achieves the best across 11 out of 12 benchmarks with the simplest arc
     - online shopping
     - notification understanding
     - watching videos
+
+
+## [2023-09-25] Aligning Large Multimodal Models with Factually Augmented RLHF (LLaVA-RLHF)
+
+***Publication:*** arXiv 2023
+
+***Authors:*** Zhiqing Sun, Sheng Shen, Shengcao Cao, Haotian Liu, Chunyuan Li, Yikang Shen, Chuang Gan, Liang-Yan Gui, Yu-Xiong Wang, Yiming Yang, Kurt Keutzer, Trevor Darrell
+
+***Affiliations:***
+
+UC Berkeley, CMU, UIUC, UW-Madison, UMass Amherst, Microsoft Research, MIT-IBM Watson AI Lab
+
+***Summary:***
+
+1. Provide more high-quality instruction tuning data.
+2. Propose the first multimodal RLHF method.
+3. Improve reward model by using a better vision and language model and calibrating reward signals through factual augmentation.
+4. Propose a new benchmark called MMHal-Bench, for hallucination evaluation.
+5. Achieve 94% on LLaVA-Bench, previous best is 87%.
+
+***Model:***
+
+1. Language model: Vicuna-7B and Vicuna-13B
+2. Vision model: ViT-L/14
+3. Reward model: the same as language model
+
+***Method:***
+
+1. Supervised fine-tune a vision and a language model.
+2. Train a reward/preference model.
+3. Train a policy model, initialized from fine-tuning model, to maximize reward.
+
+***Data:***
+
+Additional training data: 98K conversions, where 10k is held out for preference modeling, 50k for RL training.
+
+New benchmark: MMHal-Bench
+
+***Conclusions:*** 
+
+1. Use high-quality instruction tuning data improves hallucination.
+2. RLHF helps LMMs to articulate uncertainties.
+3. While RLHF enhances human alignment, reduces hallucination, and encourages truthfulness and calibration, applying RLHF can inadvertently dampen the performance of small-sized LMMs.
