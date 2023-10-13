@@ -6,6 +6,7 @@
   - [\[2023-10-05\] Improved Baselines with Visual Instruction Tuning (LLaVA-1.5)](#2023-10-05-improved-baselines-with-visual-instruction-tuning-llava-15)
   - [\[2023-09-29\] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](#2023-09-29-the-dawn-of-lmms-preliminary-explorations-with-gpt-4vision)
   - [\[2023-09-25\] Aligning Large Multimodal Models with Factually Augmented RLHF (LLaVA-RLHF)](#2023-09-25-aligning-large-multimodal-models-with-factually-augmented-rlhf-llava-rlhf)
+  - [\[2023-09-18\] An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](#2023-09-18-an-empirical-study-of-scaling-instruction-tuned-large-multimodal-models)
 
 <!-- 
 ## [xxxx-xx-xx] Templete
@@ -177,3 +178,34 @@ New benchmark: MMHal-Bench
 1. Use high-quality instruction tuning data improves hallucination.
 2. RLHF helps LMMs to articulate uncertainties.
 3. While RLHF enhances human alignment, reduces hallucination, and encourages truthfulness and calibration, applying RLHF can inadvertently dampen the performance of small-sized LMMs.
+
+
+## [2023-09-18] An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models
+
+***Publication:*** arXiv 2023
+
+***Authors:*** Yadong Lu, Chunyuan Li, Haotian Liu, Jianwei Yang, Jianfeng Gao, Yelong Shen
+
+***Affiliations:*** Microsoft Azure AI, Microsoft Research, University of Wisconsin-Madison
+
+***Summary:*** Empirical studies of model scaling, image resolution, data mixing, parameter-efficient training.
+
+***Model:***
+
+1. Vision model: CLIP ViT
+2. Language model: Vicuna-13B, Vicuna-33B, Vicuna: 65B
+
+***Method:***
+
+Stage 1 of pre-training for feature alignment: train the linear projection using LAION-CC-SBU with 558K samples
+
+Stage 2 of visual instruction tuning: train the linear projection and LLM (full-model or LoRA/QLoRA) using the LLaVA-80K dataset (or mix it with language-only instruct data ShareGPT).
+
+***Data:***
+
+***Observations:***
+
+1. Scale LMM consistently enhances model performance.
+2. LoRA/QLoRA are viable solutions to fine-tune large-scale LLMs for a good performance.
+3. Using higher resolution of 336 consistently yields 2-3 points improvement.
+4. By mixing language-only instruction data (ShareGPT) with LLaVA-80K yields 2 points improvement.

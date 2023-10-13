@@ -33,6 +33,7 @@ Stars, suggestions, and contributions are all welcome.
 | submit_date | paper | publication | code | else |
 | --- | --- | --- | --- | --- |
 | 2023-09-29 | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv_2023 | - | - |
+| 2023-09-18 |[An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv_2023 | - | - |
 
 ### Foundation Models
 
