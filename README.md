@@ -80,7 +80,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | dataset | paper | publication | describe |
 | --- | --- | --- | --- | --- |
-| 2023-09-25 | (**LLaVA-SFT-122K**) [link](https://huggingface.co/datasets/shengs/LLaVA-SFT-122K), [**LLaVA-Human-Preference-10K**] [link](https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K) | [paper](https://arxiv.org/abs/2309.14525) | arXiv_2023 | factually augment using captions |
+| 2023-09-25 | (**LLaVA-SFT-122K**) [link](https://huggingface.co/datasets/shengs/LLaVA-SFT-122K), (**LLaVA-Human-Preference-10K**) [link](https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K) | [paper](https://arxiv.org/abs/2309.14525) | arXiv_2023 | factually augment using captions |
 
 ### Datasets of Evaluation
 
