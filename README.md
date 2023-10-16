@@ -24,13 +24,13 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Survey
 
-| submit_date | paper | paper_publication | code | else |
+| submit_date | paper | paper_publication | project_code | else |
 | --- | --- | --- | --- | --- |
 | 2023-06-23 | [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star) | - |
 
 ### Understanding and Analysis
 
-| submit_date | research_perspective | paper | paper_publication | code | else |
+| submit_date | research_perspective | paper | paper_publication | project_code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-10-13 | **visual models of LMMs** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) | - |
 | 2023-09-29 | **GPT-4V performance** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv 2023 | - | - |
@@ -38,24 +38,24 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Foundation Models
 
-| submit_date | model_name | paper | paper_publication | code | else |
+| submit_date | model_name | paper | paper_publication | project_code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-09-25 | **GPT-4V** | [GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card?ref=www.chatgpt-vision.com)  | OpenAI 2023 | - | - |
 | 2023-03-15 | **GPT-4** | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | arXiv 2023 | - | - |
 
 ### Instruction Tuning
 
-| submit_date | model_name | paper | paper_publication | code | else |
+| submit_date | model_name | paper | paper_publication | project_code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-10-13 | **COMM** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) | - |
 | 2023-10-5 | **LLaVA-1.5** | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
 | 2023-04-27 | **mPLUG-Owl** | [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/X-PLUG/mPLUG-Owl.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl) |
 | 2023-04-20 | **MiniGPT-4** | [MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/Vision-CAIR/minigpt4) 
-| 2023-04-17 |**LLaVA** | [Visual Instruction Tuning](https://browse.arxiv.org/abs/2304.08485) | NeurIPS_2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
+| 2023-04-17 |**LLaVA** | [Visual Instruction Tuning](https://browse.arxiv.org/abs/2304.08485) | NeurIPS 2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
 
 ### Reinforcement Learning with Human Feedback (RLHF)
 
-| submit_date | model_name | paper | paper_publication | code | else |
+| submit_date | model_name | paper | paper_publication | project_code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-09-25 | **LLaVA-RLHF** | [Aligning Large Multimodal Models with Factually Augmented RLHF](https://arxiv.org/abs/2309.14525) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/llava-rlhf/LLaVA-RLHF.svg?style=social&label=Star) | [demo](http://pitt.lti.cs.cmu.edu:7890/) |
 
