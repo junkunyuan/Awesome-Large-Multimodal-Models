@@ -37,14 +37,14 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Foundation Models
 
-| submit_date | name | paper | publication | code | else |
+| submit_date | model_name | paper | publication | code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-09-25 | **GPT-4V** | [GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card?ref=www.chatgpt-vision.com)  | OpenAI_2023 | - | - |
 | 2023-03-15 | **GPT-4** | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | arXiv_2023 | - | - |
 
 ### Instruction Tuning
 
-| submit_date | name | paper | publication | code | else |
+| submit_date | model_name | paper | publication | code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-10-5 | **LLaVA-1.5** | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
 | 2023-04-27 | **mPLUG-Owl** | [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/X-PLUG/mPLUG-Owl.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl) |
@@ -53,7 +53,7 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Reinforcement Learning with Human Feedback (RLHF)
 
-| submit_date | paper | publication | code | else |
+| submit_date | model_name | publication | code | else |
 | --- | --- | --- | --- | --- |
 | 2023-09-25 | **LLaVA-RLHF** | [Aligning Large Multimodal Models with Factually Augmented RLHF](https://arxiv.org/abs/2309.14525) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/llava-rlhf/LLaVA-RLHF.svg?style=social&label=Star) | [demo](http://pitt.lti.cs.cmu.edu:7890/) |
 
