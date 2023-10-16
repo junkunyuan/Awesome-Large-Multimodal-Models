@@ -30,10 +30,10 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Understanding and Analysis
 
-| submit_date | paper | publication | code | else |
-| --- | --- | --- | --- | --- |
-| 2023-09-29 | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv_2023 | - | - |
-| 2023-09-18 |[An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv_2023 | - | - |
+| submit_date | research_perspective | paper | publication | code | else |
+| --- | --- | --- | --- | --- | --- |
+| 2023-09-29 | **GPT-4V** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv_2023 | - | - |
+| 2023-09-18 | **instruction tuning** | [An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv_2023 | - | - |
 
 ### Foundation Models
 
@@ -53,8 +53,8 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Reinforcement Learning with Human Feedback (RLHF)
 
-| submit_date | model_name | publication | code | else |
-| --- | --- | --- | --- | --- |
+| submit_date | model_name | paper | publication | code | else |
+| --- | --- | --- | --- | --- | --- |
 | 2023-09-25 | **LLaVA-RLHF** | [Aligning Large Multimodal Models with Factually Augmented RLHF](https://arxiv.org/abs/2309.14525) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/llava-rlhf/LLaVA-RLHF.svg?style=social&label=Star) | [demo](http://pitt.lti.cs.cmu.edu:7890/) |
 
 <!-- ### Multi-Modal In-Context Learning -->
