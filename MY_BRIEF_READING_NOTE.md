@@ -8,8 +8,8 @@
   - [\[2023-09-29\] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](#2023-09-29-the-dawn-of-lmms-preliminary-explorations-with-gpt-4vision)
   - [\[2023-09-25\] (LLaVA-RLHF) Aligning Large Multimodal Models with Factually Augmented RLHF](#2023-09-25-llava-rlhf-aligning-large-multimodal-models-with-factually-augmented-rlhf)
   - [\[2023-09-18\] An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](#2023-09-18-an-empirical-study-of-scaling-instruction-tuned-large-multimodal-models)
-    - [\[2023-04-20\] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](#2023-04-20-minigpt-4-minigpt-4-enhancing-vision-language-understanding-with-advanced-large-language-models)
-    - [\[2023-04-17\] (LLaVA) Visual Instruction Tuning](#2023-04-17-llava-visual-instruction-tuning)
+  - [\[2023-04-20\] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](#2023-04-20-minigpt-4-minigpt-4-enhancing-vision-language-understanding-with-advanced-large-language-models)
+  - [\[2023-04-17\] (LLaVA) Visual Instruction Tuning](#2023-04-17-llava-visual-instruction-tuning)
 
 <!-- 
 ## [xxxx-xx-xx] Templete
@@ -253,7 +253,7 @@ Stage 2 of visual instruction tuning: train the linear projection and LLM (full-
 3. Using higher resolution of 336 consistently yields 2-3 points improvement.
 4. By mixing language-only instruction data (ShareGPT) with LLaVA-80K yields 2 points improvement.
 
-### [2023-04-20] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models
+## [2023-04-20] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models
 
 <img src='figs/minigpt4.png' width=400>
 
@@ -282,7 +282,7 @@ Stage 1 (5M): LAION, Conceptual Caption, SBU
 
 Stage 2 (3500): built multimodal conversatin datasets.
 
-### [2023-04-17] (LLaVA) Visual Instruction Tuning
+## [2023-04-17] (LLaVA) Visual Instruction Tuning
 
 <img src='figs/LLaVA.png' width=500>
 
