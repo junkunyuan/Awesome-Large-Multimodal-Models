@@ -24,13 +24,13 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Survey
 
-| submit_date | paper | paper publication | code | else |
+| submit_date | paper | paper_publication | code | else |
 | --- | --- | --- | --- | --- |
 | 2023-06-23 | [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star) | - |
 
 ### Understanding and Analysis
 
-| submit_date | research_perspective | paper | paper publication | code | else |
+| submit_date | research_perspective | paper | paper_publication | code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-10-13 | **visual models of LMMs** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) | - |
 | 2023-09-29 | **GPT-4V performance** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv 2023 | - | - |
@@ -38,14 +38,14 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Foundation Models
 
-| submit_date | model_name | paper | paper publication | code | else |
+| submit_date | model_name | paper | paper_publication | code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-09-25 | **GPT-4V** | [GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card?ref=www.chatgpt-vision.com)  | OpenAI 2023 | - | - |
 | 2023-03-15 | **GPT-4** | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | arXiv 2023 | - | - |
 
 ### Instruction Tuning
 
-| submit_date | model_name | paper | paper publication | code | else |
+| submit_date | model_name | paper | paper_publication | code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-10-13 | **COMM** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) | - |
 | 2023-10-5 | **LLaVA-1.5** | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
@@ -55,7 +55,7 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Reinforcement Learning with Human Feedback (RLHF)
 
-| submit_date | model_name | paper | paper publication | code | else |
+| submit_date | model_name | paper | paper_publication | code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-09-25 | **LLaVA-RLHF** | [Aligning Large Multimodal Models with Factually Augmented RLHF](https://arxiv.org/abs/2309.14525) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/llava-rlhf/LLaVA-RLHF.svg?style=social&label=Star) | [demo](http://pitt.lti.cs.cmu.edu:7890/) |
 
@@ -73,20 +73,20 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Datasets of Instruction Tuning
 
-| submit_date | dataset | paper | paper publication | describe |
+| submit_date | dataset | paper | paper_publication | describe |
 | --- | --- | --- | --- | --- |
 | 2023-04-20 | **cc_sbu_align** [link](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align) | [paper](https://arxiv.org/abs/2304.10592) | arXiv 2023 | high-quality, well-aligned dataset |
 | 2023-04-17 | **LLaVA-Instruct-150K** [link](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) | [paper](https://browse.arxiv.org/abs/2304.08485) | NeurIPS 2023 | instruction-following dataset |
 
 ### Datasets of Reinforcement Learning with Human Feedback (RLHF)
 
-| submit_date | dataset | paper | paper publication | describe |
+| submit_date | dataset | paper | paper_publication | describe |
 | --- | --- | --- | --- | --- |
 | 2023-09-25 | **LLaVA-SFT-122K** [link](https://huggingface.co/datasets/shengs/LLaVA-SFT-122K), **LLaVA-Human-Preference-10K** [link](https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K) | [paper](https://arxiv.org/abs/2309.14525) | arXiv 2023 | factually augment using captions |
 
 ### Datasets of Evaluation
 
-| submit_date | dataset | paper | paper publication | describe |
+| submit_date | dataset | paper | paper_publication | describe |
 | --- | --- | --- | --- | --- |
 | 2023-09-25 | **MMHal-Bench** [link](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench) | [paper](https://arxiv.org/abs/2309.14525) | arXiv 2023 | focus on hallucination evaluation |
 | 2023-04-27 | **OwlEval** [link](https://github.com/X-PLUG/mPLUG-Owl/tree/main/OwlEval) | [paper](https://arxiv.org/abs/2304.14178) | arXiv 2023 | evaluate a variety of model capabilities |
