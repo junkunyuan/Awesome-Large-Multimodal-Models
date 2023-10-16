@@ -8,6 +8,8 @@
   - [\[2023-09-29\] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](#2023-09-29-the-dawn-of-lmms-preliminary-explorations-with-gpt-4vision)
   - [\[2023-09-25\] (LLaVA-RLHF) Aligning Large Multimodal Models with Factually Augmented RLHF](#2023-09-25-llava-rlhf-aligning-large-multimodal-models-with-factually-augmented-rlhf)
   - [\[2023-09-18\] An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](#2023-09-18-an-empirical-study-of-scaling-instruction-tuned-large-multimodal-models)
+    - [\[2023-04-20\] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](#2023-04-20-minigpt-4-minigpt-4-enhancing-vision-language-understanding-with-advanced-large-language-models)
+    - [\[2023-04-17\] (LLaVA) Visual Instruction Tuning](#2023-04-17-llava-visual-instruction-tuning)
 
 <!-- 
 ## [xxxx-xx-xx] Templete
@@ -250,3 +252,60 @@ Stage 2 of visual instruction tuning: train the linear projection and LLM (full-
 2. LoRA/QLoRA are viable solutions to fine-tune large-scale LLMs for a good performance.
 3. Using higher resolution of 336 consistently yields 2-3 points improvement.
 4. By mixing language-only instruction data (ShareGPT) with LLaVA-80K yields 2 points improvement.
+
+### [2023-04-20] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models
+
+<img src='figs/minigpt4.png' width=400>
+
+***Publication:*** arXiv 2023
+
+***Authors:*** Deyao Zhu, Jun Chen, Xiaoqian Shen, Xiang Li, Mohamed Elhoseiny
+
+***Affiliations:*** King Abdullah University of Science and Technology (KAUST)
+
+***Summary:*** It aligns the visual features to the features of a strong LLM, i.e., Vicuna, by fine-tuning a linear layer on a high-quality instruction dataset.
+
+***Model:***
+
+1. Language model: Vicuna
+2. Vision model: ViT-G/14 (from EVA-CLIP)
+3. Else: Q-Former (from BLIP-2)
+4. Proposed module: linear projection
+
+***Method:***
+
+Two stage fine-tuning: large-scale multimodal datasets + small but high-quality conversation datasets.
+
+***Data:***
+
+Stage 1 (5M): LAION, Conceptual Caption, SBU
+
+Stage 2 (3500): built multimodal conversatin datasets.
+
+### [2023-04-17] (LLaVA) Visual Instruction Tuning
+
+<img src='figs/LLaVA.png' width=500>
+
+***Publication:*** NeurIPS 2023
+
+***Authors:*** Haotian Li, Chunyuan Li, Qingyang Wu, YongJae Lee
+
+***Affiliations*** University of Wisconsin-Madison, Microsoft Research, Columbia University
+
+***Summary:*** First introduce instruction-following dataset, and perform instruction tuning of LMMs.
+
+***Mode:***
+
+1. Language model: LLaMA。
+2. Vision model: CLIP ViT-L/14。
+3. Proposed module: projection layer
+
+***Method:***
+
+1. First stage: use subset of CC3M (595K) to fine-tune linear projection by predicting the image captions.
+2. Second stage: use the instruction-following dataset and Science QA (158K) to fine-tune linear projection and LLM.
+
+***Data:*** Build instruction-following dataset:
+
+- subset of CC3M (595K)
+- multi-round conversation (58K), single-roung detail description (23K), single-round complicated reasoning (77K)
