@@ -32,8 +32,9 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | research_perspective | paper | publication | code | else |
 | --- | --- | --- | --- | --- | --- |
-| 2023-09-29 | **GPT-4V** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv_2023 | - | - |
-| 2023-09-18 | **instruction tuning** | [An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv_2023 | - | - |
+| 2023-10-13 | **visual models of LMMs** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) | - |
+| 2023-09-29 | **GPT-4V performance** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv_2023 | - | - |
+| 2023-09-18 | **scale instruction tuning** | [An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv_2023 | - | - |
 
 ### Foundation Models
 
@@ -46,6 +47,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | model_name | paper | publication | code | else |
 | --- | --- | --- | --- | --- | --- |
+| 2023-10-13 | **COMM** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) | - |
 | 2023-10-5 | **LLaVA-1.5** | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
 | 2023-04-27 | **mPLUG-Owl** | [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/X-PLUG/mPLUG-Owl.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl) |
 | 2023-04-20 | **MiniGPT-4** | [MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592) | arXiv_2023 | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/Vision-CAIR/minigpt4) 

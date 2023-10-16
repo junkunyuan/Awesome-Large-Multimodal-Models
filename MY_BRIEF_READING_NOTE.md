@@ -3,9 +3,10 @@
 ## Contents
 - [My Brief Reading Notes](#my-brief-reading-notes)
   - [Contents](#contents)
-  - [\[2023-10-05\] Improved Baselines with Visual Instruction Tuning (LLaVA-1.5)](#2023-10-05-improved-baselines-with-visual-instruction-tuning-llava-15)
+  - [\[2023-10-13\] (COMM) From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](#2023-10-13-comm-from-clip-to-dino-visual-encoders-shout-in-multi-modal-large-language-models)
+  - [\[2023-10-05\] (LLaVA-1.5) Improved Baselines with Visual Instruction Tuning](#2023-10-05-llava-15-improved-baselines-with-visual-instruction-tuning)
   - [\[2023-09-29\] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](#2023-09-29-the-dawn-of-lmms-preliminary-explorations-with-gpt-4vision)
-  - [\[2023-09-25\] Aligning Large Multimodal Models with Factually Augmented RLHF (LLaVA-RLHF)](#2023-09-25-aligning-large-multimodal-models-with-factually-augmented-rlhf-llava-rlhf)
+  - [\[2023-09-25\] (LLaVA-RLHF) Aligning Large Multimodal Models with Factually Augmented RLHF](#2023-09-25-llava-rlhf-aligning-large-multimodal-models-with-factually-augmented-rlhf)
   - [\[2023-09-18\] An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](#2023-09-18-an-empirical-study-of-scaling-instruction-tuned-large-multimodal-models)
 
 <!-- 
@@ -28,7 +29,45 @@
 ***Observations:*** 
 -->
 
-## [2023-10-05] Improved Baselines with Visual Instruction Tuning (LLaVA-1.5)
+## [2023-10-13] (COMM) From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models
+
+<img src='figs/COMM.png' width=600>
+
+***Publication:***
+arXiv 2023
+
+***Authors:***
+
+Dongsheng Jiang, Yuchen Liu, Songlin Liu, Xiaopeng Zhang, Jin Li, Hongkai Xiong, Qi Tian
+
+***Affiliations:***
+
+Huawei Cloud, Shanghai Jiao Tong University
+
+***Summary:*** Analysis of visual encoders for LMMs.
+
+***Model:***
+
+1. Vision model: CLIP + DINO v2, concate their features after layer scaling
+2. Language model: Vicuna (7B/13B)
+
+***Method:***
+
+Freeze visual encoder and tune LLM + alignment layer + feature fusion module
+
+***Data:***
+
+1. Stage1: Image Captioning + RefCOCO, visual genome, Viusal-7W.
+2. Stage2: LLaVA-Instruct-150K + Shikra-RD.
+
+***Observations:***
+
+1. Shallow layer features of vision models offer advantages for fine-grained tasks such as grounding and region understanding, while deep layer features are superior at global understanding.
+2. DINO without text-image alignment is promising, while MAE and DeiT perform inferiorly.
+
+## [2023-10-05] (LLaVA-1.5) Improved Baselines with Visual Instruction Tuning
+
+<img src='figs/LLaVA-1.5.png' width=400>
 
 ***Publication:*** arXiv 2023
 
@@ -137,7 +176,9 @@ LLaVA-1.5 achieves the best across 11 out of 12 benchmarks with the simplest arc
     - watching videos
 
 
-## [2023-09-25] Aligning Large Multimodal Models with Factually Augmented RLHF (LLaVA-RLHF)
+## [2023-09-25] (LLaVA-RLHF) Aligning Large Multimodal Models with Factually Augmented RLHF
+
+<img src='figs/LLaVA-RLHF.png' width=600>
 
 ***Publication:*** arXiv 2023
 
