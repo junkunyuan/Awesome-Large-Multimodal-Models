@@ -30,11 +30,11 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Understanding and Analysis
 
-| submit_date | research_perspective | paper | paper_publication | project_code |
+| submit_date | research_object | paper | paper_publication | project_code |
 | --- | --- | --- | --- | --- |
-| 2023-10-13 | **visual models of LMMs** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
-| 2023-09-29 | **GPT-4V performance** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv 2023 | - |
-| 2023-09-18 | **scale instruction tuning** | [An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv 2023 | - |
+| 2023-10-13 | **visual encoder** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
+| 2023-09-29 | **GPT-4V** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv 2023 | - |
+| 2023-09-18 | **instruction tuning** | [An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv 2023 | - |
 
 ### Foundation Models
 
