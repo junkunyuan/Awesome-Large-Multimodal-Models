@@ -12,6 +12,7 @@ Stars, suggestions, and contributions are all welcome.
     - [Survey](#survey)
     - [Understanding and Analysis](#understanding-and-analysis)
     - [Foundation Models](#foundation-models)
+    - [Pre-Training](#pre-training)
     - [Instruction Tuning](#instruction-tuning)
     - [Reinforcement Learning with Human Feedback (RLHF)](#reinforcement-learning-with-human-feedback-rlhf)
   - [Datasets](#datasets)
@@ -42,6 +43,12 @@ Stars, suggestions, and contributions are all welcome.
 | --- | --- | --- | --- | --- | --- |
 | 2023-09-25 | **GPT-4V** | [GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card?ref=www.chatgpt-vision.com)  | OpenAI 2023 | - | - |
 | 2023-03-15 | **GPT-4** | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | arXiv 2023 | - | - |
+
+### Pre-Training
+
+| submit_date | model_name | paper | paper_publication | project_code | else |
+| --- | --- | --- | --- | --- | --- |
+| 2022-01-28 | **BLIP** | [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) | ICML 2022 | ![Star](https://img.shields.io/github/stars/salesforce/BLIP.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/Salesforce/BLIP) |
 
 ### Instruction Tuning
 

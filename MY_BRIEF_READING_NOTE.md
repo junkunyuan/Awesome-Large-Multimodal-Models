@@ -10,6 +10,7 @@
   - [\[2023-09-18\] An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](#2023-09-18-an-empirical-study-of-scaling-instruction-tuned-large-multimodal-models)
   - [\[2023-04-20\] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](#2023-04-20-minigpt-4-minigpt-4-enhancing-vision-language-understanding-with-advanced-large-language-models)
   - [\[2023-04-17\] (LLaVA) Visual Instruction Tuning](#2023-04-17-llava-visual-instruction-tuning)
+  - [\[2022-01-28\] (BLIP) BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](#2022-01-28-blip-blip-bootstrapping-language-image-pre-training-for-unified-vision-language-understanding-and-generation)
 
 <!-- 
 ## [xxxx-xx-xx] Templete
@@ -309,3 +310,39 @@ Stage 2 (3500): built multimodal conversatin datasets.
 
 - subset of CC3M (595K)
 - multi-round conversation (58K), single-roung detail description (23K), single-round complicated reasoning (77K)
+
+
+## [2022-01-28] (BLIP) BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
+
+<img src='figs/blip-2.png' width=700>
+<img src='figs/blip.png' width=700>
+
+***Publication:*** ICML 2022
+
+***Authors:*** Junnan Li, Dongxu Li, Caiming Xiong, Steven Hoi
+
+***Affiliations:*** Salesforce Research
+
+***Summary:*** Propose to pre-train a vision-language model that can do both understanding and generation tasks, and bootstrap the captions to remove noise.
+
+***Model:***
+
+1. Vision model: ViT
+2. Language model: BERT
+3. Image-grounded text encoder: insert cross-attention into BERT
+4. Image-grounded text decoder: replace attention of BERT by causal attention 
+
+***Method:***
+
+Pre-training:
+1. Image-Text Contrastive (ITC) for modality alignment.
+2. Image-Text Matching (ITM) for modality fusion.
+3. Language Modeling (LM) for generation.
+
+Data cleaning:
+1. Use pre-trained decoder to generate image captions.
+2. Use pre-trained image-grounded text encoder to align the text and captions. 
+
+***Data:***
+
+Ground-truth datasets (COCO + Visual Genome), web datasets (Conceptual Captions, Conceptual 12M, SBU captions), LAION.
