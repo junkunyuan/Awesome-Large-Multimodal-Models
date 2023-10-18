@@ -10,6 +10,7 @@
   - [\[2023-09-18\] An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](#2023-09-18-an-empirical-study-of-scaling-instruction-tuned-large-multimodal-models)
   - [\[2023-04-20\] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](#2023-04-20-minigpt-4-minigpt-4-enhancing-vision-language-understanding-with-advanced-large-language-models)
   - [\[2023-04-17\] (LLaVA) Visual Instruction Tuning](#2023-04-17-llava-visual-instruction-tuning)
+    - [\[2022-04-29\] (Flamingo) Flamingo: A Visual Language Model for Few-Shot Learning](#2022-04-29-flamingo-flamingo-a-visual-language-model-for-few-shot-learning)
   - [\[2022-01-28\] (BLIP) BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](#2022-01-28-blip-blip-bootstrapping-language-image-pre-training-for-unified-vision-language-understanding-and-generation)
 
 <!-- 
@@ -310,6 +311,32 @@ Stage 2 (3500): built multimodal conversatin datasets.
 
 - subset of CC3M (595K)
 - multi-round conversation (58K), single-roung detail description (23K), single-round complicated reasoning (77K)
+
+
+### [2022-04-29] (Flamingo) Flamingo: A Visual Language Model for Few-Shot Learning
+<table><tr>
+<td><img src='figs/flamingo1.png' width=500></td>
+<td><img src='figs/flamingo2.png' width=500></td>
+</tr></table>
+
+***Publication:*** NeurIPS 2022
+
+***Authors:*** Jean-Baptiste Alayrac, Jeff Donahue, Pauline Luc, Antoine Miech, Lain Barr, Yana Hasson, Karel Lenc, Arhur Mensch, Katie Millican, Malcolm Reynolds, Roman Ring, Eliza Rutherford, Serkan Cabi, Tenga Han, Zhitao Gong, Sina Samangooei, Marianne Monteiro, Jacob Menick, Sebastian Borgeaud, Andrew Brock, Aida Nematzadeh, Sahand Sharifzadeh, Mikolaj Binkowski, Ricardo Barreira, Oriol Vinyals, Andrew Zisserman, Karen Simonyan
+
+***Affiliations:*** DeepMind
+
+***Summary:*** Pre-training
+
+***Model:***
+
+1. Vision model: normalizer free ResNet
+2. Language model: Chinchilla 1.4B, 7B, and 70B
+
+***Method:***
+1. Extract features of images or videos and feed it to perceiver resampler to get representations with 64 tokens. Use contrastive learning to align the visual features to language features.
+2. Use cross-attention to insert visual information and perform language modeling, which enables the ability of in-context learning. 
+
+***Data:*** MultiModal Massive Web (M3D) dataset for in-context learning, and image/video-text pairs dataset ALIGN + LTIP + VTP.
 
 
 ## [2022-01-28] (BLIP) BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation
