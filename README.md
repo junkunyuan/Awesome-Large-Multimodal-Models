@@ -34,10 +34,10 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | research_perspective | paper | paper_publication | project_code |
 | --- | --- | --- | --- | --- |
-| 2023-10-17 | **prompt GPT-4V** | [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/microsoft/SoM.svg?style=social&label=Star) | 
-| 2023-10-13 | **visual encoder** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
-| 2023-09-29 | **GPT-4V** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv 2023 | - |
-| 2023-09-18 | **instruction tuning** | [An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv 2023 | - |
+| 2023-10-17 | **visual grounding of GPT-4V** | [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/microsoft/SoM.svg?style=social&label=Star) | 
+| 2023-10-13 | **visual encoder of LMMs** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
+| 2023-09-29 | **GPT-4V evaluation** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv 2023 | - |
+| 2023-09-18 | **scale up instruction tuning** | [An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv 2023 | - |
 
 ### Foundation Models
 
@@ -56,6 +56,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | model_name | paper | paper_publication | project_code | else |
 | --- | --- | --- | --- | --- | --- |
+| 2023-10-14 | **MiniGPT-v2** | [MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star) | [demo](https://minigpt-v2.github.io/) |
 | 2023-10-13 | **COMM** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) | - |
 | 2023-10-5 | **LLaVA-1.5** | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star) | [demo](https://llava.hliu.cc/) |
 | 2023-04-27 | **mPLUG-Owl** | [mPLUG-Owl: Modularization Empowers Large Language Models with Multimodality](https://arxiv.org/abs/2304.14178) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/X-PLUG/mPLUG-Owl.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl) |

@@ -3,6 +3,7 @@
 ## Contents
 - [My Brief Reading Notes](#my-brief-reading-notes)
   - [Contents](#contents)
+  - [\[2023-10-14\] (MiniGPT-v2) MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](#2023-10-14-minigpt-v2-minigpt-v2-large-language-model-as-a-unified-interface-for-vision-language-multi-task-learning)
   - [\[2023-10-13\] (COMM) From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](#2023-10-13-comm-from-clip-to-dino-visual-encoders-shout-in-multi-modal-large-language-models)
   - [\[2023-10-05\] (LLaVA-1.5) Improved Baselines with Visual Instruction Tuning](#2023-10-05-llava-15-improved-baselines-with-visual-instruction-tuning)
   - [\[2023-09-29\] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](#2023-09-29-the-dawn-of-lmms-preliminary-explorations-with-gpt-4vision)
@@ -32,6 +33,35 @@
 
 ***Observations:*** 
 -->
+
+## [2023-10-14] (MiniGPT-v2) MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning
+
+***Publication:*** arXiv 2023
+
+***Authors:*** Jun Chen, Deyao Zhu, Xiaoqian Shen, Xiang Li, Zechun Liu, Pengchuan Zhang, Raghuraman Krishnamoorthi, Vikas Chandra, Yunyang Xiong, Mohamed Elhoseiny
+
+***Affiliations:*** King Abdullah University of Science and Technology (KAUST), Meta AI Research
+
+***Summary:*** Use a unified interface for handling different tasks with unique identifiers.
+
+***Model:***
+
+1. Vision model: EVA (resolution 448x448)
+2. Language model: LLaMA2-chat (7B)
+3. Linear projection
+
+***Method:***
+
+1. Stage 1: fine-tune on weakly-labeled image-text data and high-quality fine-grained annotation data
+2. Stage 2: fine-tune on fine-grained data for multiple tasks
+3. Stage 3: fine-tune on fine-graiend data and instruction data
+
+***Data:***
+
+1. Stage 1: LAION, CC3M, SBU, GRIT-20M, COCO, Text Captions, RefCOCO, RefCOCO+, RefCOCOg, ReferCOCO, GQA, VQA-v2, OCR-VQA, OK-VQA, AOK-VQA
+2. Stage 2: data in stage 1 but discard weakly-supervised data
+3. Stage 3: fine-graiend data in stage 2, LLaVA, Flickr30k, Unnatural Instruction
+
 
 ## [2023-10-13] (COMM) From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models
 
