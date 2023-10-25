@@ -16,6 +16,7 @@ Stars, suggestions, and contributions are all welcome.
     - [Instruction Tuning](#instruction-tuning)
     - [Reinforcement Learning with Human Feedback (RLHF)](#reinforcement-learning-with-human-feedback-rlhf)
     - [In-Context Learning](#in-context-learning)
+    - [Hallucination Correction](#hallucination-correction)
   - [Datasets](#datasets)
     - [Datasets of Instruction Tuning](#datasets-of-instruction-tuning)
     - [Datasets of Reinforcement Learning with Human Feedback (RLHF)](#datasets-of-reinforcement-learning-with-human-feedback-rlhf)
@@ -75,9 +76,16 @@ Stars, suggestions, and contributions are all welcome.
 | --- | --- | --- | --- | --- | --- |
 | 2022-04-29 | **Flamingo** | [Flamingo: A Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | NeurIPS 2022 | - | - |
 
+### Hallucination Correction
+
+| submit_date | model_name | paper | paper_publication | project_code | else |
+| --- | --- | --- | --- | --- | --- |
+| 2023-10-24 | Woodpecker | [Woodpecker: Hallucination Correction for Multimodal Large Language Models](https://arxiv.org/abs/2310.16045) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/BradyFU/Woodpecker.svg?style=social&label=Star) | [demo](https://42976740ac53ddbe7d.gradio.live/) |
+
 <!-- ### Multi-Modal Chain-of-Thought -->
 
 <!-- ### LLM-Driven Visual Reasoning -->
+
 
 <!-- ### Evaluation -->
 
