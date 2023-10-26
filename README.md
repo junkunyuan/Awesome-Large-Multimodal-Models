@@ -35,10 +35,12 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | research_perspective | paper | paper_publication | project_code |
 | --- | --- | --- | --- | --- |
-| 2023-10-17 | **visual grounding of GPT-4V** | [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/microsoft/SoM.svg?style=social&label=Star) | 
+| 2023-10-25 | **evaluation of GPT-4V** | [An Early Evaluation of GPT-4V(ision)](https://arxiv.org/abs/2310.16534) | arXiv 2023 | - |
+| 2023-10-25 | **OCR of GPT-4V** | [Exploring OCR Capabilities of GPT-4V(ision) : A Quantitative and In-depth Evaluation](https://arxiv.org/abs/2310.16809) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/SCUT-DLVCLab/GPT-4V_OCR.svg?style=social&label=Star) |
+| 2023-10-17 | **visual grounding of GPT-4V** | [Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/microsoft/SoM.svg?style=social&label=Star) |
 | 2023-10-13 | **visual encoder of LMMs** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
-| 2023-09-29 | **GPT-4V evaluation** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv 2023 | - |
-| 2023-09-18 | **scale up instruction tuning** | [An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv 2023 | - |
+| 2023-09-29 | **evaluation of GPT-4V** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv 2023 | - |
+| 2023-09-18 | **scaling of instruction tuning** | [An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv 2023 | - |
 
 ### Foundation Models
 
