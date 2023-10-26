@@ -9,6 +9,7 @@
   - [\[2023-09-29\] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](#2023-09-29-the-dawn-of-lmms-preliminary-explorations-with-gpt-4vision)
   - [\[2023-09-25\] (LLaVA-RLHF) Aligning Large Multimodal Models with Factually Augmented RLHF](#2023-09-25-llava-rlhf-aligning-large-multimodal-models-with-factually-augmented-rlhf)
   - [\[2023-09-18\] An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](#2023-09-18-an-empirical-study-of-scaling-instruction-tuned-large-multimodal-models)
+  - [\[2023-08-24\] (Qwen-VL) A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyondr](#2023-08-24-qwen-vl-a-versatile-vision-language-model-for-understanding-localization-text-reading-and-beyondr)
   - [\[2023-04-20\] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](#2023-04-20-minigpt-4-minigpt-4-enhancing-vision-language-understanding-with-advanced-large-language-models)
   - [\[2023-04-17\] (LLaVA) Visual Instruction Tuning](#2023-04-17-llava-visual-instruction-tuning)
     - [\[2022-04-29\] (Flamingo) Flamingo: A Visual Language Model for Few-Shot Learning](#2022-04-29-flamingo-flamingo-a-visual-language-model-for-few-shot-learning)
@@ -284,6 +285,36 @@ Stage 2 of visual instruction tuning: train the linear projection and LLM (full-
 2. LoRA/QLoRA are viable solutions to fine-tune large-scale LLMs for a good performance.
 3. Using higher resolution of 336 consistently yields 2-3 points improvement.
 4. By mixing language-only instruction data (ShareGPT) with LLaVA-80K yields 2 points improvement.
+
+
+## [2023-08-24] (Qwen-VL) A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyondr
+
+***Publication:*** arXiv 2023
+
+***Authors:*** Jinze Bai, Shuai Bai, Shusheng Yang, Shijie Wang, Sinan Tan, Peng Wang, Junyang Lin, Chang Zhou, Jingren Zhou
+
+***Affiliations:*** Alibaba Group
+
+***Summary:***
+
+***Model:***
+
+1. Vision model: Openclip's ViT-bigG (1.9B)
+2. Language model: Qwen-7B (7.7B)
+3. VL Adapter: single-layer cross-attention (0.08B)
+
+***Method:***
+
+1. Stage 1: pre-training on large-scale data by optimizing vision encoder and VL adapter.
+2. Stage 2: multi-task pre-training on high-quality data by optimizing whole model
+3. Stage 3: supervised fine-tuning on instuction data by optimizing adapter and LLM
+
+***Data:***
+
+1. Stage 1: large-scale, weakly labeled, web-crawled set of image-text pairs (LAION-en, LAION-COCO, DataComp, Coyo, CC12M, CC3M, SBU, COCO Caption, LAION-zh, In-house Data, 1.4B).
+2. Stage 2: high-quality and fine-grained VL annotation data (Captioning, VQA, Grounding, Ref Grounding, Grouded Cap, OCR, Pure-text Autoregression 7.8M).
+3. Stage 3: instruction data 350K
+
 
 ## [2023-04-20] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models
 
