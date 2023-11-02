@@ -17,6 +17,7 @@ Stars, suggestions, and contributions are all welcome.
     - [Reinforcement Learning with Human Feedback (RLHF)](#reinforcement-learning-with-human-feedback-rlhf)
     - [In-Context Learning](#in-context-learning)
     - [Hallucination Correction](#hallucination-correction)
+    - [LLM-Driven Visual Applications](#llm-driven-visual-applications)
   - [Datasets](#datasets)
     - [Datasets of Instruction Tuning](#datasets-of-instruction-tuning)
     - [Datasets of Reinforcement Learning with Human Feedback (RLHF)](#datasets-of-reinforcement-learning-with-human-feedback-rlhf)
@@ -47,7 +48,7 @@ Stars, suggestions, and contributions are all welcome.
 | submit_date | model_name | paper | paper_publication | project_code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-09-25 | **GPT-4V** | [GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card?ref=www.chatgpt-vision.com)  | OpenAI 2023 | - | - |
-| 2023-08-24 | **Qwen-VL** | [A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/QwenLM/Qwen-VL.svg?style=social&label=Star) | [demo](https://modelscope.cn/studios/qwen/Qwen-VL-Chat-Demo/summary) |
+| 2023-08-24 | **Qwen-VL** | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/QwenLM/Qwen-VL.svg?style=social&label=Star) | [demo](https://modelscope.cn/studios/qwen/Qwen-VL-Chat-Demo/summary) |
 | 2023-03-15 | **GPT-4** | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | arXiv 2023 | - | - |
 
 ### Pre-Training
@@ -87,7 +88,11 @@ Stars, suggestions, and contributions are all welcome.
 
 <!-- ### Multi-Modal Chain-of-Thought -->
 
-<!-- ### LLM-Driven Visual Reasoning -->
+### LLM-Driven Visual Applications
+
+| submit_date | model_name | paper | paper_publication | project_code | else |
+| --- | --- | --- | --- | --- | --- |
+| 2023-11-01 | LLaVA-Interactive | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star) | [demo](https://llava-vl.github.io/llava-interactive/) |
 
 
 <!-- ### Evaluation -->

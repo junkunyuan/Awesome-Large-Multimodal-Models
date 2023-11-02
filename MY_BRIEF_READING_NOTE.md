@@ -9,7 +9,7 @@
   - [\[2023-09-29\] The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](#2023-09-29-the-dawn-of-lmms-preliminary-explorations-with-gpt-4vision)
   - [\[2023-09-25\] (LLaVA-RLHF) Aligning Large Multimodal Models with Factually Augmented RLHF](#2023-09-25-llava-rlhf-aligning-large-multimodal-models-with-factually-augmented-rlhf)
   - [\[2023-09-18\] An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](#2023-09-18-an-empirical-study-of-scaling-instruction-tuned-large-multimodal-models)
-  - [\[2023-08-24\] (Qwen-VL) A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyondr](#2023-08-24-qwen-vl-a-versatile-vision-language-model-for-understanding-localization-text-reading-and-beyondr)
+  - [\[2023-08-24\] (Qwen-VL) Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyondr](#2023-08-24-qwen-vl-qwen-vl-a-versatile-vision-language-model-for-understanding-localization-text-reading-and-beyondr)
   - [\[2023-04-20\] (MiniGPT-4) MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](#2023-04-20-minigpt-4-minigpt-4-enhancing-vision-language-understanding-with-advanced-large-language-models)
   - [\[2023-04-17\] (LLaVA) Visual Instruction Tuning](#2023-04-17-llava-visual-instruction-tuning)
     - [\[2022-04-29\] (Flamingo) Flamingo: A Visual Language Model for Few-Shot Learning](#2022-04-29-flamingo-flamingo-a-visual-language-model-for-few-shot-learning)
@@ -287,7 +287,7 @@ Stage 2 of visual instruction tuning: train the linear projection and LLM (full-
 4. By mixing language-only instruction data (ShareGPT) with LLaVA-80K yields 2 points improvement.
 
 
-## [2023-08-24] (Qwen-VL) A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyondr
+## [2023-08-24] (Qwen-VL) Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyondr
 
 ***Publication:*** arXiv 2023
 
