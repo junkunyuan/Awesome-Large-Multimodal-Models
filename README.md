@@ -16,6 +16,7 @@ Stars, suggestions, and contributions are all welcome.
     - [Instruction Tuning](#instruction-tuning)
     - [Reinforcement Learning with Human Feedback (RLHF)](#reinforcement-learning-with-human-feedback-rlhf)
     - [In-Context Learning](#in-context-learning)
+    - [Multi-Round/Multi-Image Chat](#multi-roundmulti-image-chat)
     - [Hallucination Correction](#hallucination-correction)
     - [LLM-Driven Visual Applications](#llm-driven-visual-applications)
   - [Datasets](#datasets)
@@ -79,6 +80,13 @@ Stars, suggestions, and contributions are all welcome.
 | submit_date | model_name | paper | paper_publication | project_code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2022-04-29 | **Flamingo** | [Flamingo: A Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | NeurIPS 2022 | - | - |
+
+### Multi-Round/Multi-Image Chat
+
+| submit_date | model_name | paper | paper_publication | project_code | else |
+| --- | --- | --- | --- | --- | --- |
+| 2023-09-29 | **DeepSpeed-VisualChat** | [DeepSpeed-VisualChat: Multi-Round Multi-Image Interleave Chat via Multi-Modal Causal Attention](https://arxiv.org/abs/2309.14327) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/microsoft/DeepSpeedExamples.svg?style=social&label=Star) | - |
+
 
 ### Hallucination Correction
 
