@@ -12,7 +12,6 @@ Stars, suggestions, and contributions are all welcome.
     - [Survey](#survey)
     - [Understanding and Analysis](#understanding-and-analysis)
     - [Foundation Models](#foundation-models)
-    - [Pre-Training](#pre-training)
     - [Instruction Tuning](#instruction-tuning)
     - [Reinforcement Learning with Human Feedback (RLHF)](#reinforcement-learning-with-human-feedback-rlhf)
     - [In-Context Learning](#in-context-learning)
@@ -50,13 +49,9 @@ Stars, suggestions, and contributions are all welcome.
 | --- | --- | --- | --- | --- | --- |
 | 2023-09-25 | **GPT-4V** | [GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card?ref=www.chatgpt-vision.com)  | OpenAI 2023 | - | - |
 | 2023-08-24 | **Qwen-VL** | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/QwenLM/Qwen-VL.svg?style=social&label=Star) | [demo](https://modelscope.cn/studios/qwen/Qwen-VL-Chat-Demo/summary) |
+| 2023-05-29 | **PaLI-X** | [PaLI-X: On Scaling up a Multilingual Vision and Language Model](https://arxiv.org/abs/2305.18565) | arXiv 2023 | - | - |
 | 2023-03-15 | **GPT-4** | [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774) | arXiv 2023 | - | - |
 | 2022-09-14 | **PaLI** | [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794) | ICLR 2023 | - | - |
-
-### Pre-Training
-
-| submit_date | model_name | paper | paper_publication | project_code | else |
-| --- | --- | --- | --- | --- | --- |
 | 2022-01-28 | **BLIP** | [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) | ICML 2022 | ![Star](https://img.shields.io/github/stars/salesforce/BLIP.svg?style=social&label=Star) | [demo](https://huggingface.co/spaces/Salesforce/BLIP) |
 
 ### Instruction Tuning
