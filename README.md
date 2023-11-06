@@ -47,6 +47,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | model_name | paper | paper_publication | project_code | else |
 | --- | --- | --- | --- | --- | --- |
+| 2023-10-13 | **PaLI-3 | [PaLI-3 Vision Language Models: Smaller, Faster, Stronger](https://arxiv.org/abs/2310.09199) | arXiv 2023 | - | - |
 | 2023-09-25 | **GPT-4V** | [GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card?ref=www.chatgpt-vision.com)  | OpenAI 2023 | - | - |
 | 2023-08-24 | **Qwen-VL** | [Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond](https://arxiv.org/abs/2308.12966) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/QwenLM/Qwen-VL.svg?style=social&label=Star) | [demo](https://modelscope.cn/studios/qwen/Qwen-VL-Chat-Demo/summary) |
 | 2023-05-29 | **PaLI-X** | [PaLI-X: On Scaling up a Multilingual Vision and Language Model](https://arxiv.org/abs/2305.18565) | arXiv 2023 | - | - |
