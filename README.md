@@ -74,18 +74,18 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on LMM alignment through RLHF.
 
-| submit_date | model_name | paper | paper_publication | project_code | else |
-| --- | --- | --- | --- | --- | --- |
-| 2023-09-25 | **LLaVA-RLHF** | [Aligning Large Multimodal Models with Factually Augmented RLHF](https://arxiv.org/abs/2309.14525) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/llava-rlhf/LLaVA-RLHF.svg?style=social&label=Star) | [demo](http://pitt.lti.cs.cmu.edu:7890/) |
+| submit_date | model_name | paper | publication | project_code|
+| --- | --- | --- | --- | --- |
+| 2023-09-25 | **LLaVA-RLHF** | [Aligning Large Multimodal Models with Factually Augmented RLHF](https://arxiv.org/abs/2309.14525) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/llava-rlhf/LLaVA-RLHF.svg?style=social&label=Star)<br/>[demo](http://pitt.lti.cs.cmu.edu:7890/) |
 
 ### Capability Expansion
 
 > Papers on expanding capabilities of LMMs, such as segmentation, detection, and generation, etc.
 
-| submit_date | model_name | paper | paper_publication | project_code |
+| submit_date | model_name | paper | publication | project_code |
 | --- | --- | --- | --- | --- |
-| 2023-11-09 | **LLaVa-Plus** | [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star) [demo](https://llavaplus.ngrok.io/) |
-| 2023-11-01 | **LLaVA-Interactive** | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star) [demo](https://llava-vl.github.io/llava-interactive/) |
+| 2023-11-09 | **LLaVa-Plus** | [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star)<br/>[demo](https://llavaplus.ngrok.io/) |
+| 2023-11-01 | **LLaVA-Interactive** | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star)<br/>[demo](https://llava-vl.github.io/llava-interactive/) |
 
 ### Capability Promotion
 
@@ -93,9 +93,9 @@ Stars, suggestions, and contributions are all welcome.
 
 #### Hallucination Correction
 
-| submit_date | model_name | paper | paper_publication | project_code | else |
-| --- | --- | --- | --- | --- | --- |
-| 2023-10-24 | **Woodpecker** | [Woodpecker: Hallucination Correction for Multimodal Large Language Models](https://arxiv.org/abs/2310.16045) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/BradyFU/Woodpecker.svg?style=social&label=Star) | [demo](https://42976740ac53ddbe7d.gradio.live/) |
+| submit_date | model_name | paper | publication | project_code |
+| --- | --- | --- | --- | --- |
+| 2023-10-24 | **Woodpecker** | [Woodpecker: Hallucination Correction for Multimodal Large Language Models](https://arxiv.org/abs/2310.16045) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/BradyFU/Woodpecker.svg?style=social&label=Star)<br/>[demo](https://42976740ac53ddbe7d.gradio.live/) |
 
 
 ## Datasets
