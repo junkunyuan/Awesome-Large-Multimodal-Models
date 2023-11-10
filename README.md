@@ -35,7 +35,7 @@ Stars, suggestions, and contributions are all welcome.
 | 2023-10-13 | **visual encoder of LMMs** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
 | 2023-09-29 | **evaluation of GPT-4V** | [The Dawn of LMMs: Preliminary Explorations with GPT-4V(ision)](https://arxiv.org/abs/2309.17421) | arXiv 2023 | - |
 | 2023-09-18 | **scaling of instruction tuning** | [An Empirical Study of Scaling Instruction-Tuned Large Multimodal Models](https://arxiv.org/abs/2309.09958) | arXiv 2023 | - |
-| 2023-06-23 | survey on LMMs | [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star) | 
+| 2023-06-23 | **survey on LMMs** | [A Survey on Multimodal Large Language Models](https://arxiv.org/abs/2306.13549) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/BradyFU/Awesome-Multimodal-Large-Language-Models.svg?style=social&label=Star) | 
 
 
 ### Foundation Models
@@ -82,10 +82,15 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on expanding capabilities of LMMs, such as segmentation, detection, and generation, etc.
 
-| submit_date | model_name | paper | paper_publication | project_code | else |
+<!-- | submit_date | model_name | paper | paper_publication | project_code | else |
 | --- | --- | --- | --- | --- | --- |
 | 2023-11-09 | **LLaVa-Plus** | [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star) | [demo](https://llavaplus.ngrok.io/) |
-| 2023-11-01 | **LLaVA-Interactive** | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star) | [demo](https://llava-vl.github.io/llava-interactive/) |
+| 2023-11-01 | **LLaVA-Interactive** | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star) | [demo](https://llava-vl.github.io/llava-interactive/) | -->
+
+| submit_date | model&nbsp;/&nbsp;code&nbsp;/&nbsp;demo | paper
+| --- | --- | --- |
+| 2023-11-09 | **LLaVa-Plus** <br/> ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star)&nbsp;[demo](https://llavaplus.ngrok.io/) | [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) &nbsp; [arXiv 2023] |
+| 2023-11-01 | **LLaVA-Interactive** <br/> ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star)&nbsp;[demo](https://llava-vl.github.io/llava-interactive/) | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) &nbsp; [arXiv 2023] |
 
 ### Capability Promotion
 
