@@ -82,15 +82,10 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on expanding capabilities of LMMs, such as segmentation, detection, and generation, etc.
 
-<!-- | submit_date | model_name | paper | paper_publication | project_code | else |
-| --- | --- | --- | --- | --- | --- |
-| 2023-11-09 | **LLaVa-Plus** | [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star) | [demo](https://llavaplus.ngrok.io/) |
-| 2023-11-01 | **LLaVA-Interactive** | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star) | [demo](https://llava-vl.github.io/llava-interactive/) | -->
-
-| submit_date | model&nbsp;/&nbsp;code&nbsp;/&nbsp;demo | paper
-| --- | --- | --- |
-| 2023-11-09 | **LLaVa-Plus** <br/> ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star)&nbsp;[demo](https://llavaplus.ngrok.io/) | [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) &nbsp; [arXiv 2023] |
-| 2023-11-01 | **LLaVA-Interactive** <br/> ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star)&nbsp;[demo](https://llava-vl.github.io/llava-interactive/) | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) &nbsp; [arXiv 2023] |
+| submit_date | model_name | paper | paper_publication | code |
+| --- | --- | --- | --- | --- |
+| 2023-11-09 | **LLaVa-Plus** | [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star) [demo](https://llavaplus.ngrok.io/) |
+| 2023-11-01 | **LLaVA-Interactive** | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star) [demo](https://llava-vl.github.io/llava-interactive/) |
 
 ### Capability Promotion
 
