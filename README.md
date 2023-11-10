@@ -102,20 +102,20 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Datasets of Instruction Tuning
 
-| submit_date | dataset | paper | paper_publication | describe |
+| submit_date | dataset | paper | publication_venue | describe |
 | --- | --- | --- | --- | --- |
 | 2023-04-20 | **cc_sbu_align** [link](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align) | [paper](https://arxiv.org/abs/2304.10592) | arXiv 2023 | high-quality, well-aligned dataset |
 | 2023-04-17 | **LLaVA-Instruct-150K** [link](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K) | [paper](https://browse.arxiv.org/abs/2304.08485) | NeurIPS 2023 | instruction-following dataset |
 
 ### Datasets of Reinforcement Learning with Human Feedback (RLHF)
 
-| submit_date | dataset | paper | paper_publication | describe |
+| submit_date | dataset | paper | publication_venue | describe |
 | --- | --- | --- | --- | --- |
 | 2023-09-25 | **LLaVA-SFT-122K** [link](https://huggingface.co/datasets/shengs/LLaVA-SFT-122K), **LLaVA-Human-Preference-10K** [link](https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K) | [paper](https://arxiv.org/abs/2309.14525) | arXiv 2023 | factually augment using captions |
 
 ### Datasets of Evaluation
 
-| submit_date | dataset | paper | paper_publication | describe |
+| submit_date | dataset | paper | publication_venue | describe |
 | --- | --- | --- | --- | --- |
 | 2023-09-25 | **MMHal-Bench** [link](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench) | [paper](https://arxiv.org/abs/2309.14525) | arXiv 2023 | focus on hallucination evaluation |
 | 2023-04-27 | **OwlEval** [link](https://github.com/X-PLUG/mPLUG-Owl/tree/main/OwlEval) | [paper](https://arxiv.org/abs/2304.14178) | arXiv 2023 | evaluate a variety of model capabilities |
