@@ -82,7 +82,7 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on expanding capabilities of LMMs, such as segmentation, detection, and generation, etc.
 
-| submit_date | model_name | paper | paper_publication | code |
+| submit_date | model_name | paper | paper_publication | project |
 | --- | --- | --- | --- | --- |
 | 2023-11-09 | **LLaVa-Plus** | [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star) [demo](https://llavaplus.ngrok.io/) |
 | 2023-11-01 | **LLaVA-Interactive** | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star) [demo](https://llava-vl.github.io/llava-interactive/) |
