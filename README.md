@@ -62,14 +62,23 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on improving LMMs through instruction tuning.
 
-| submit_date | model_name | paper | publication_venue | project_code|
+<!-- | submit_date | model_name | paper | publication_venue | project_code|
 | --- | --- | --- | --- | --- |
 | 2023-10-14 | **MiniGPT-v2** | [MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star)<br/>[demo](https://minigpt-v2.github.io/) |
 | 2023-10-13 | **COMM** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
 | 2023-10-5 | **LLaVA-1.5** | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)<br/>[demo](https://llava.hliu.cc/) |
 | 2023-09-29 | **DeepSpeed-VisualChat** | [DeepSpeed-VisualChat: Multi-Round Multi-Image Interleave Chat via Multi-Modal Causal Attention](https://arxiv.org/abs/2309.14327) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/microsoft/DeepSpeedExamples.svg?style=social&label=Star) |
 | 2023-04-20 | **MiniGPT-4** | [MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star)<br/>[demo](https://huggingface.co/spaces/Vision-CAIR/minigpt4)
-| 2023-04-17 |**LLaVA** | [Visual Instruction Tuning](https://browse.arxiv.org/abs/2304.08485) | NeurIPS 2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)<br/>[demo](https://llava.hliu.cc/) |
+| 2023-04-17 |**LLaVA** | [Visual Instruction Tuning](https://browse.arxiv.org/abs/2304.08485) | NeurIPS 2023 | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)<br/>[demo](https://llava.hliu.cc/) | -->
+
+| submit_date | model_name | paper | project_code|
+| --- | --- | --- | --- |
+| 2023-10-14 | **MiniGPT-v2** | [MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478)&nbsp;&nbsp;[arXiv 2023] | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star)<br/>[demo](https://minigpt-v2.github.io/) |
+| 2023-10-13 | **COMM** | [From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825)&nbsp;&nbsp;[arXiv 2023] | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
+| 2023-10-5 | **LLaVA-1.5** | [Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744)&nbsp;&nbsp;[arXiv 2023] | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)<br/>[demo](https://llava.hliu.cc/) |
+| 2023-09-29 | **DeepSpeed-VisualChat** | [DeepSpeed-VisualChat: Multi-Round Multi-Image Interleave Chat via Multi-Modal Causal Attention](https://arxiv.org/abs/2309.14327)&nbsp;&nbsp;[arXiv 2023] | ![Star](https://img.shields.io/github/stars/microsoft/DeepSpeedExamples.svg?style=social&label=Star) |
+| 2023-04-20 | **MiniGPT-4** | [MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592)&nbsp;&nbsp;[arXiv 2023] | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star)<br/>[demo](https://huggingface.co/spaces/Vision-CAIR/minigpt4)
+| 2023-04-17 |**LLaVA** | [Visual Instruction Tuning](https://browse.arxiv.org/abs/2304.08485)&nbsp;&nbsp;[NeurIPS 2023] | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)<br/>[demo](https://llava.hliu.cc/) |
 
 ### Reinforcement Learning with Human Feedback (RLHF)
 
