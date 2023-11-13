@@ -73,12 +73,12 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | model_name | paper
 | --- | --- | --- |
-| 2023-10-14 | **MiniGPT-v2** | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star)&nbsp;&nbsp;&nbsp;&nbsp;[demo](https://minigpt-v2.github.io/)<br/>**[MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
-| 2023-10-13 | **COMM** | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star)<br/> **[From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
-| 2023-10-5 | **LLaVA-1.5** | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)&nbsp;&nbsp;&nbsp;&nbsp;[demo](https://llava.hliu.cc/)<br/>**[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
+| 2023-10-14 | **MiniGPT-v2** | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star)<br/>**[MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
+| 2023-10-13 | **COMM** | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star)<br/>**[From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
+| 2023-10-5 | **LLaVA-1.5** | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)&nbsp;&nbsp;&nbsp;&nbsp;<br/>**[Improved Baselines with Visual Instruction Tuning](https://arxiv.org/abs/2310.03744)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
 | 2023-09-29 | **DeepSpeed-VisualChat** | ![Star](https://img.shields.io/github/stars/microsoft/DeepSpeedExamples.svg?style=social&label=Star)<br/>**[DeepSpeed-VisualChat: Multi-Round Multi-Image Interleave Chat via Multi-Modal Causal Attention](https://arxiv.org/abs/2309.14327)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
-| 2023-04-20 | **MiniGPT-4** | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star)&nbsp;&nbsp;&nbsp;&nbsp;[demo](https://huggingface.co/spaces/Vision-CAIR/minigpt4)<br/>**[MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
-| 2023-04-17 |**LLaVA** | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)&nbsp;&nbsp;&nbsp;&nbsp;[demo](https://llava.hliu.cc/)<br/>**[Visual Instruction Tuning](https://browse.arxiv.org/abs/2304.08485)**&nbsp;&nbsp;&nbsp;&nbsp;*NeurIPS 2023* |
+| 2023-04-20 | **MiniGPT-4** | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star)&nbsp;&nbsp;&nbsp;&nbsp;<br/>**[MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models](https://arxiv.org/abs/2304.10592)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
+| 2023-04-17 |**LLaVA** | ![Star](https://img.shields.io/github/stars/haotian-liu/LLaVA.svg?style=social&label=Star)&nbsp;&nbsp;&nbsp;&nbsp;<br/>**[Visual Instruction Tuning](https://browse.arxiv.org/abs/2304.08485)**&nbsp;&nbsp;&nbsp;&nbsp;*NeurIPS 2023* |
 
 ### Reinforcement Learning with Human Feedback (RLHF)
 
@@ -99,8 +99,8 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | model_name | paper |
 | --- | --- | --- |
-| 2023-11-09 | **LLaVa-Plus** | *LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents*&nbsp;&nbsp;&nbsp;&nbsp;[[arXiv 2023](https://arxiv.org/abs/2311.05437)]&nbsp;&nbsp;&nbsp;&nbsp;[[demo](https://llavaplus.ngrok.io/)]&nbsp;&nbsp;&nbsp;&nbsp;![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star) |
-| 2023-11-01 | **LLaVA-Interactive** | *LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing*&nbsp;&nbsp;&nbsp;&nbsp;[[arXiv 2023](https://arxiv.org/abs/2311.00571)]&nbsp;&nbsp;&nbsp;&nbsp;[[demo](https://llava-vl.github.io/llava-interactive/)]&nbsp;&nbsp;&nbsp;&nbsp;![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star) |
+| 2023-11-09 | **LLaVa-Plus** | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star)<br/>**[LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
+| 2023-11-01 | **LLaVA-Interactive** | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star)<br/>**[LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |
 
 ### Capability Promotion
 
