@@ -103,20 +103,20 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Datasets of Instruction Tuning
 
-| submit_date | dataset | paper | describe |
-| --- | --- | --- | --- |
-| 2023-04-20 | **[cc_sbu_align](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align)** | *[arXiv 2023](https://arxiv.org/abs/2304.10592)* | high-quality, well-aligned dataset |
-| 2023-04-17 | **[LLaVA-Instruct-150K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)** | *[NeurIPS 2023](https://browse.arxiv.org/abs/2304.08485)* | instruction-following dataset |
+| submit_date | dataset | paper | number | describe |
+| --- | --- | --- | --- | --- |
+| 2023-04-20 | **[cc_sbu_align](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align)** | *[arXiv 2023](https://arxiv.org/abs/2304.10592)* | 5M | high-quality, well-aligned |
+| 2023-04-17 | **[LLaVA-Instruct-150K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)** | *[NeurIPS 2023](https://browse.arxiv.org/abs/2304.08485)* | 158K | conversation, description, reasoning |
 
 ### Datasets of Reinforcement Learning with Human Feedback (RLHF)
 
-| submit_date | dataset | paper | describe |
-| --- | --- | --- | --- |
-| 2023-09-25 | **[LLaVA-SFT-122K](https://huggingface.co/datasets/shengs/LLaVA-SFT-122K)**, **[LLaVA-Human-Preference-10K](https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K)** | *[arXiv 2023](https://arxiv.org/abs/2309.14525)* | factually augment using captions |
+| submit_date | dataset | paper | number | describe |
+| --- | --- | --- | --- | --- |
+| 2023-09-25 | **[LLaVA-SFT-122K](https://huggingface.co/datasets/shengs/LLaVA-SFT-122K)**, **[LLaVA-Human-Preference-10K](https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K)** | *[arXiv 2023](https://arxiv.org/abs/2309.14525)* | 122K, 10K | high-quality |
 
 ### Datasets of Evaluation
 
-| submit_date | dataset | paper | keywords |
-| --- | --- | --- | --- |
-| 2023-09-25 | **[MMHal-Bench](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench)** | *[arXiv 2023](https://arxiv.org/abs/2309.14525)* | hallucination |
-| 2023-04-27 | **[OwlEval](https://github.com/X-PLUG/mPLUG-Owl/tree/main/OwlEval)** | *[arXiv 2023](https://arxiv.org/abs/2304.14178)* | diverse capabilities |
+| submit_date | dataset | paper | number | keywords |
+| --- | --- | --- | --- | --- |
+| 2023-09-25 | **[MMHal-Bench](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench)** | *[arXiv 2023](https://arxiv.org/abs/2309.14525)* | 96 | hallucination |
+| 2023-04-27 | **[OwlEval](https://github.com/X-PLUG/mPLUG-Owl/tree/main/OwlEval)** | *[arXiv 2023](https://arxiv.org/abs/2304.14178)* | 82 | multi-turn conversation, diverse capabilities |
