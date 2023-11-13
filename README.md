@@ -44,6 +44,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | model_name | paper | publication_venue | project_code
 | --- | --- | --- | --- | --- |
+| 2023-11-10 | **Florence-2** | [Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks](https://arxiv.org/abs/2311.06242) | arXiv 2023 | - |
 | 2023-11-07 | **mPLUG-Owl2** | [mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration](https://arxiv.org/abs/2311.04257) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/X-PLUG/mPLUG-Owl.svg?style=social&label=Star)<br/>[demo](https://modelscope.cn/studios/damo/mPLUG-Owl2/summary) |
 | 2023-10-13 | **PaLI-3** | [PaLI-3 Vision Language Models: Smaller, Faster, Stronger](https://arxiv.org/abs/2310.09199) | arXiv 2023 | - |
 | 2023-09-25 | **GPT-4V** | [GPT-4V(ision) system card](https://openai.com/research/gpt-4v-system-card?ref=www.chatgpt-vision.com)  | OpenAI 2023 | - |
@@ -55,7 +56,7 @@ Stars, suggestions, and contributions are all welcome.
 | 2022-09-14 | **PaLI** | [PaLI: A Jointly-Scaled Multilingual Language-Image Model](https://arxiv.org/abs/2209.06794) | ICLR 2023 | - |
 | 2022-04-29 | **Flamingo** | [Flamingo: A Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198) | NeurIPS 2022 | - |
 | 2022-01-28 | **BLIP** | [BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation](https://arxiv.org/abs/2201.12086) | ICML 2022 | ![Star](https://img.shields.io/github/stars/salesforce/BLIP.svg?style=social&label=Star)<br/>[demo](https://huggingface.co/spaces/Salesforce/BLIP) |
-
+| 2021-11-22 | **Florence** | [Florence: A New Foundation Model for Computer Vision](https://arxiv.org/abs/2111.11432) | arXiv 2021 | - |
 
 ### Instruction Tuning
 
@@ -82,10 +83,16 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on expanding capabilities of LMMs, such as segmentation, detection, generation, and etc.
 
-| submit_date | model_name | paper | publication_venue | project_code |
+<!-- | submit_date | model_name | paper | publication_venue | project_code |
 | --- | --- | --- | --- | --- |
 | 2023-11-09 | **LLaVa-Plus** | [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star)<br/>[demo](https://llavaplus.ngrok.io/) |
-| 2023-11-01 | **LLaVA-Interactive** | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star)<br/>[demo](https://llava-vl.github.io/llava-interactive/) |
+| 2023-11-01 | **LLaVA-Interactive** | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star)<br/>[demo](https://llava-vl.github.io/llava-interactive/) | -->
+
+<!-- | submit&nbsp;date&nbsp;/&nbsp;model&nbsp;name | paper | publication_venue | project_code | -->
+| date&nbsp;/&nbsp;name | paper | publication_venue | project_code |
+| --- | --- | --- | --- |
+| 2023-11-09 <br/> **LLaVa-Plus** | [LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star)<br/>[demo](https://llavaplus.ngrok.io/) |
+| 2023-11-01 <br/> **LLaVA-Interactive** | [LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571) | arXiv 2023 | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star)<br/>[demo](https://llava-vl.github.io/llava-interactive/) |
 
 ### Capability Promotion
 
