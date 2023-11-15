@@ -29,6 +29,8 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | research_perspective | paper | code |
 | --- | --- | --- | --- |
+| 2023-11-14 | **review on instruction tuning** | **[Vision-Language Instruction Tuning: A Review and Analysis](https://arxiv.org/abs/2311.08172)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/palchenli/VL-Instruction-Tuning.svg?style=social&label=Star) |
+| 2023-10-25 | **evaluation of GPT-4V** | **[An Early Evaluation of GPT-4V(ision)](https://arxiv.org/abs/2310.16534)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | - |
 | 2023-10-25 | **evaluation of GPT-4V** | **[An Early Evaluation of GPT-4V(ision)](https://arxiv.org/abs/2310.16534)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | - |
 | 2023-10-25 | **OCR of GPT-4V** | **[Exploring OCR Capabilities of GPT-4V(ision) : A Quantitative and In-depth Evaluation](https://arxiv.org/abs/2310.16809)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/SCUT-DLVCLab/GPT-4V_OCR.svg?style=social&label=Star) |
 | 2023-10-17 | **visual grounding of GPT-4V** | **[Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/microsoft/SoM.svg?style=social&label=Star) |
