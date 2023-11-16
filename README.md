@@ -27,7 +27,7 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on the survey, understanding, and analysis of LMMs.
 
-| submit_date | research_perspective | paper | project |
+| submit_date | research_perspective | paper | project_code |
 | --- | --- | --- | --- |
 | 2023-11-14 | **review on instruction tuning** | **[Vision-Language Instruction Tuning: A Review and Analysis](https://arxiv.org/abs/2311.08172)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/palchenli/VL-Instruction-Tuning.svg?style=social&label=Star) |
 | 2023-10-25 | **evaluation of GPT-4V** | **[An Early Evaluation of GPT-4V(ision)](https://arxiv.org/abs/2310.16534)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | - |
@@ -44,7 +44,7 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on training LMMs from scratch.
 
-| submit_date | model_name | paper | project |
+| submit_date | model_name | paper | project_code |
 | --- | --- | --- | --- |
 | 2023-11-10 | **Florence-2** | **[Florence-2: Advancing a Unified Representation for a Variety of Vision Tasks](https://arxiv.org/abs/2311.06242)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023*| - |
 | 2023-11-07 | **mPLUG-Owl2** | **[mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration](https://arxiv.org/abs/2311.04257)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/X-PLUG/mPLUG-Owl.svg?style=social&label=Star) |
@@ -64,7 +64,7 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on improving LMMs through instruction tuning.
 
-| submit_date | model_name | paper | project |
+| submit_date | model_name | paper | project_code |
 | --- | --- | --- | --- |
 | 2023-10-14 | **MiniGPT-v2** | **[MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star) |
 | 2023-10-13 | **COMM** | **[From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
@@ -77,7 +77,7 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on LMM alignment through RLHF.
 
-| submit_date | model_name | paper | project |
+| submit_date | model_name | paper | project_code |
 | --- | --- | --- | --- |
 | 2023-09-25 | **LLaVA-RLHF** | **[Aligning Large Multimodal Models with Factually Augmented RLHF](https://arxiv.org/abs/2309.14525)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023*| ![Star](https://img.shields.io/github/stars/llava-rlhf/LLaVA-RLHF.svg?style=social&label=Star) |
 
@@ -85,7 +85,7 @@ Stars, suggestions, and contributions are all welcome.
 
 > Papers on expanding capabilities of LMMs, such as segmentation, detection, generation, and etc.
 
-| submit_date | model_name | paper | project |
+| submit_date | model_name | paper | project_code |
 | --- | --- | --- | --- |
 | 2023-11-09 | **LLaVa-Plus** | **[LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star) |
 | 2023-11-01 | **LLaVA-Interactive** | **[LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star) |
@@ -96,7 +96,7 @@ Stars, suggestions, and contributions are all welcome.
 
 #### Hallucination Correction
 
-| submit_date | model_name | paper | project |
+| submit_date | model_name | paper | project_code |
 | --- | --- | --- | --- |
 | 2023-10-24 | **Woodpecker** | **[Woodpecker: Hallucination Correction for Multimodal Large Language Models](https://arxiv.org/abs/2310.16045)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023*| ![Star](https://img.shields.io/github/stars/BradyFU/Woodpecker.svg?style=social&label=Star) |
 
@@ -114,7 +114,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | dataset | paper | number | describe |
 | --- | --- | --- | --- | --- |
-| 2023-09-25 | **[LLaVA-SFT-122K](https://huggingface.co/datasets/shengs/LLaVA-SFT-122K)**, **[LLaVA-Human-Preference-10K](https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K)** | *[arXiv 2023](https://arxiv.org/abs/2309.14525)* | 122K, 10K | high-quality |
+| 2023-09-25 | **[LLaVA-SFT-122K](https://huggingface.co/datasets/shengs/LLaVA-SFT-122K)**<br/>**[LLaVA-Human-Preference-10K](https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K)** | *[arXiv 2023](https://arxiv.org/abs/2309.14525)* | 122K<br/>10K | high-quality |
 
 ### Datasets of Evaluation
 
