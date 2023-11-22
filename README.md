@@ -14,8 +14,7 @@ Stars, suggestions, and contributions are all welcome.
     - [Instruction Tuning](#instruction-tuning)
     - [Reinforcement Learning with Human Feedback (RLHF)](#reinforcement-learning-with-human-feedback-rlhf)
     - [Capability Expansion](#capability-expansion)
-    - [Capability Promotion](#capability-promotion)
-      - [Hallucination Correction](#hallucination-correction)
+    - [Hallucination Correction](#hallucination-correction)
   - [Datasets](#datasets)
     - [Datasets of Instruction Tuning](#datasets-of-instruction-tuning)
     - [Datasets of Reinforcement Learning with Human Feedback (RLHF)](#datasets-of-reinforcement-learning-with-human-feedback-rlhf)
@@ -91,11 +90,9 @@ Stars, suggestions, and contributions are all welcome.
 | 2023-11-09 | **LLaVa-Plus** | **[LLaVA-Plus: Learning to Use Tools for Creating Multimodal Agents](https://arxiv.org/abs/2311.05437)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |  | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Plus-Codebase.svg?style=social&label=Star) |
 | 2023-11-01 | **LLaVA-Interactive** | **[LLaVA-Interactive: An All-in-One Demo for Image Chat, Segmentation, Generation and Editing](https://arxiv.org/abs/2311.00571)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* |  | ![Star](https://img.shields.io/github/stars/LLaVA-VL/LLaVA-Interactive-Demo.svg?style=social&label=Star) |
 
-### Capability Promotion
+### Hallucination Correction
 
-> Papers on improving capabilities of LMMs like hallucination correction.
-
-#### Hallucination Correction
+> Papers on correcting hallucination of LMMs.
 
 | submit_date | model_name | paper | github_code |
 | --- | --- | --- | --- |
@@ -106,15 +103,15 @@ Stars, suggestions, and contributions are all welcome.
 
 ### Datasets of Instruction Tuning
 
-| submit_date | dataset | paper | number | describe |
+| submit_date | dataset | paper | number | keywords |
 | --- | --- | --- | --- | --- |
-| 2023-11-15 | **[MMC-Instruction](https://github.com/FuxiaoLiu/MMC)** | *[arXiv 2023](https://arxiv.org/abs/2311.10774)* | 600K | chart understanding |
+| 2023-11-15 | **[MMC-Instruction](https://github.com/FuxiaoLiu/MMC)** | *[arXiv 2023](https://arxiv.org/abs/2311.10774)* | 600K | chart |
 | 2023-04-20 | **[cc_sbu_align](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align)** | *[arXiv 2023](https://arxiv.org/abs/2304.10592)* | 5M | high-quality, well-aligned |
 | 2023-04-17 | **[LLaVA-Instruct-150K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)** | *[NeurIPS 2023](https://browse.arxiv.org/abs/2304.08485)* | 158K | conversation, description, reasoning |
 
 ### Datasets of Reinforcement Learning with Human Feedback (RLHF)
 
-| submit_date | dataset | paper | number | describe |
+| submit_date | dataset | paper | number | keywords |
 | --- | --- | --- | --- | --- |
 | 2023-09-25 | **[LLaVA-SFT-122K](https://huggingface.co/datasets/shengs/LLaVA-SFT-122K)**<br/>**[LLaVA-Human-Preference-10K](https://huggingface.co/datasets/zhiqings/LLaVA-Human-Preference-10K)** | *[arXiv 2023](https://arxiv.org/abs/2309.14525)* | 122K<br/>10K | high-quality |
 
@@ -124,4 +121,5 @@ Stars, suggestions, and contributions are all welcome.
 | --- | --- | --- | --- | --- |
 | 2023-11-15 | **[MMC-Benchmark](https://github.com/FuxiaoLiu/MMC)** | *[arXiv 2023](https://arxiv.org/abs/2311.10774)* | 600K | chart |
 | 2023-09-25 | **[MMHal-Bench](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench)** | *[arXiv 2023](https://arxiv.org/abs/2309.14525)* | 96 | hallucination |
-| 2023-04-27 | **[OwlEval](https://github.com/X-PLUG/mPLUG-Owl/tree/main/OwlEval)** | *[arXiv 2023](https://arxiv.org/abs/2304.14178)* | 82 | multi-turn conversation, diverse capabilities |
+| 2023-06-23 | **[MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation)** | *[arXiv 2023](https://arxiv.org/abs/2306.13394)* | - | perception and cognition |
+| 2023-04-27 | **[OwlEval](https://github.com/X-PLUG/mPLUG-Owl/tree/main/OwlEval)** | *[arXiv 2023](https://arxiv.org/abs/2304.14178)* | 82 | multi-turn, diverse capabilities |
