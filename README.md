@@ -28,6 +28,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | research_perspective | paper | github_code |
 | --- | --- | --- | --- |
+| 2023-11-23 | **evaluate LMMs by GPT-4V** | **[MLLM-Bench, Evaluating Multi-modal LLMs using GPT-4V](https://arxiv.org/abs/2311.13951)** | ![Star](https://img.shields.io/github/stars/FreedomIntelligence/MLLM-Bench.svg?style=social&label=Star) |
 | 2023-11-14 | **review on instruction tuning** | **[Vision-Language Instruction Tuning: A Review and Analysis](https://arxiv.org/abs/2311.08172)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/palchenli/VL-Instruction-Tuning.svg?style=social&label=Star) |
 | 2023-10-25 | **evaluation of GPT-4V** | **[An Early Evaluation of GPT-4V(ision)](https://arxiv.org/abs/2310.16534)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | - |
 | 2023-10-25 | **evaluation of GPT-4V** | **[An Early Evaluation of GPT-4V(ision)](https://arxiv.org/abs/2310.16534)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | - |
@@ -106,6 +107,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | dataset | paper | number | keywords |
 | --- | --- | --- | --- | --- |
+| 2023-11-21 | **[ShareGPT4V](https://huggingface.co/datasets/Lin-Chen/ShareGPT4V)** | *[arXiv 2023](https://arxiv.org/abs/2311.12793)* | 1.2M | highly descriptive captions, GPT-4V |
 | 2023-11-15 | **[MMC-Instruction](https://github.com/FuxiaoLiu/MMC)** | *[arXiv 2023](https://arxiv.org/abs/2311.10774)* | 600K | chart |
 | 2023-04-20 | **[cc_sbu_align](https://huggingface.co/datasets/Vision-CAIR/cc_sbu_align)** | *[arXiv 2023](https://arxiv.org/abs/2304.10592)* | 5M | high-quality, well-aligned |
 | 2023-04-17 | **[LLaVA-Instruct-150K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K)** | *[NeurIPS 2023](https://browse.arxiv.org/abs/2304.08485)* | 158K | conversation, description, reasoning |
@@ -120,7 +122,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | dataset | paper | number | keywords |
 | --- | --- | --- | --- | --- |
-| 2023-11-21 | **[ShareGPT4V](https://huggingface.co/datasets/Lin-Chen/ShareGPT4V)** | *[arXiv 2023](https://arxiv.org/abs/2311.12793)* | 1.2M | highly descriptive captions, GPT-4V |
+| 2023-11-23 | **[MLLM-Bench](https://github.com/FreedomIntelligence/MLLM-Bench/tree/main/data)** | [arXiv 2023](https://arxiv.org/abs/2311.13951) | 419 | GPT-4V |
 | 2023-11-15 | **[MMC-Benchmark](https://github.com/FuxiaoLiu/MMC)** | *[arXiv 2023](https://arxiv.org/abs/2311.10774)* | 600K | chart |
 | 2023-09-25 | **[MMHal-Bench](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench)** | *[arXiv 2023](https://arxiv.org/abs/2309.14525)* | 96 | hallucination |
 | 2023-06-23 | **[MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation)** | *[arXiv 2023](https://arxiv.org/abs/2306.13394)* | - | perception and cognition |
