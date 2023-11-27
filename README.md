@@ -65,6 +65,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | model_name | paper | github_code |
 | --- | --- | --- | --- |
+| 2023-11-21 | **ShareGPT4V** | **[ShareGPT4V: Improving Large Multi-Modal Models with Better Captions](https://arxiv.org/abs/2311.12793)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/InternLM/InternLM-XComposer.svg?style=social&label=Star) |
 | 2023-11-15 | **MMCA** | **[MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning](https://arxiv.org/abs/2311.10774)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/FuxiaoLiu/MMC.svg?style=social&label=Star) |
 | 2023-10-14 | **MiniGPT-v2** | **[MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star) |
 | 2023-10-13 | **COMM** | **[From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
@@ -119,6 +120,7 @@ Stars, suggestions, and contributions are all welcome.
 
 | submit_date | dataset | paper | number | keywords |
 | --- | --- | --- | --- | --- |
+| 2023-11-21 | **[ShareGPT4V](https://huggingface.co/datasets/Lin-Chen/ShareGPT4V)** | *[arXiv 2023](https://arxiv.org/abs/2311.12793)* | 1.2M | highly descriptive captions, GPT-4V |
 | 2023-11-15 | **[MMC-Benchmark](https://github.com/FuxiaoLiu/MMC)** | *[arXiv 2023](https://arxiv.org/abs/2311.10774)* | 600K | chart |
 | 2023-09-25 | **[MMHal-Bench](https://huggingface.co/datasets/Shengcao1006/MMHal-Bench)** | *[arXiv 2023](https://arxiv.org/abs/2309.14525)* | 96 | hallucination |
 | 2023-06-23 | **[MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation)** | *[arXiv 2023](https://arxiv.org/abs/2306.13394)* | - | perception and cognition |
