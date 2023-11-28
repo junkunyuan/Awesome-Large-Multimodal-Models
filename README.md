@@ -67,6 +67,7 @@ Stars, suggestions, and contributions are all welcome.
 | submit_date | model_name | paper | github_code |
 | --- | --- | --- | --- |
 | 2023-11-21 | **ShareGPT4V** | **[ShareGPT4V: Improving Large Multi-Modal Models with Better Captions](https://arxiv.org/abs/2311.12793)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/InternLM/InternLM-XComposer.svg?style=social&label=Star) |
+| 2023-11-20 | **LION** | **[LION : Empowering Multimodal Large Language Model with Dual-Level Visual Knowledge](https://arxiv.org/abs/2311.11860)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/rshaojimmy/JiuTian.svg?style=social&label=Star) |
 | 2023-11-15 | **MMCA** | **[MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning](https://arxiv.org/abs/2311.10774)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/FuxiaoLiu/MMC.svg?style=social&label=Star) |
 | 2023-10-14 | **MiniGPT-v2** | **[MiniGPT-v2: large language model as a unified interface for vision-language multi-task learning](https://arxiv.org/abs/2310.09478)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/Vision-CAIR/MiniGPT-4.svg?style=social&label=Star) |
 | 2023-10-13 | **COMM** | **[From CLIP to DINO: Visual Encoders Shout in Multi-Modal Large Language Models](https://arxiv.org/abs/2310.08825)**&nbsp;&nbsp;&nbsp;&nbsp;*arXiv 2023* | ![Star](https://img.shields.io/github/stars/YuchenLiu98/COMM.svg?style=social&label=Star) |
